@@ -1,0 +1,12 @@
+body,input,textarea,button {
+	font-size:15px;
+}
+
+#cursor,#size {
+	width:70px;
+}
+
+#tResults {
+	height:300px;
+	width:300px;
+}

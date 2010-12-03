@@ -20,7 +20,7 @@ function getCoordinates(lookup, id) {
 			newline = id + ' ERROR: ' + status + '\n';
 		}
 		$('#tResults').val(newline + previous); 
-
+	    if (i == datastore.length) { alert('done') }
 	});
 
 };
@@ -28,7 +28,7 @@ function getCoordinates(lookup, id) {
 
 var geocoder;
 var map;
-
+intervalId = 0;
 i = 0;
 datastore = "";
 
@@ -38,6 +38,8 @@ function timedCount() {
 	getCoordinates(lookup, l.id);			
 	i++;
 	$("#cursor").val(i);
+
+
 
 }
 
@@ -49,7 +51,7 @@ function begin() {
 		success: function(data){
 			datastore = data; // store globally
 			$("#size").val(datastore.length);
-			setInterval("timedCount()", 5000 );
+			intervalId = setInterval("timedCount()", 2000 );
 		}
 	});
 }

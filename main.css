@@ -1,19 +1,77 @@
 body {
 	background-color:#addbf0;
-	
+  background-image:url('images/iceland.png');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center; 	
+	background-size:70%;
+	font-size:10px;
 }
 
-body,input,textarea,button {
-	font-size:15px;
+input,button {
+	font-size:16px;
+	padding:3px;
+	color:#666;
 }
+
+button {
+
+  padding-left:8px;
+  padding-right:8px;
+
+}
+
+h1 {
+
+  font-family:"Droid Sans";
+  font-size:48px;
+  color:#2c81a5;
+  margin:0px;
+  padding:0px;
+
+}
+
+#plate textarea {
+  opacity:1;
+  padding:3px;
+
+}
+
+#description {
+  font-size:11px;
+  margin-top:5px;
+  color:#666;
+  margin-bottom:10px;
+
+}
+
+#plate {
+  margin:2px;
+  margin-bottom:5px;
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  font-family:sans-serif;
+  width:350px;
+  opacity:.7;
+  border:1px solid red;
+  padding:20px;
+  background-color:#fff;  
+
+}
+
+
 
 #cursor,#size {
 	width:70px;
 }
 
 #tResults {
-	height:300px;
-	width:300px;
+	height:80%;
+	width:100%;
+	margin-top:4px;
+	
 }
 
 .box_shadow {

@@ -1,6 +1,6 @@
 body {
 	background-color:#addbf0;
-  background-image:url('images/iceland.png');
+  background-image:url('/images/iceland.png');
   background-repeat:no-repeat;
   background-attachment:fixed;
   background-position:center; 	

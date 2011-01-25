@@ -45,7 +45,7 @@ function timedCount() {
 
 function begin() {
 	$.ajax({
-		url: 'locations.json?2',
+		url: 'json/locations.json?2',
 		dataType: 'json',
 		async: false,
 		success: function(data){
@@ -59,6 +59,15 @@ function begin() {
 $(document).ready(function($) {
 	
 	initialize();
+  // Rollover for the close button ....
+  $("#close").hover(
+    function () {
+      $(this).css("opacity", "1");
+    }, 
+    function () {
+      $(this).css("opacity", ".5");
+    }
+  );
 
 });
 

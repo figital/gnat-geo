@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Sans'), local('DroidSans'), url('/fonts/DroidSans.ttf') format('truetype');
+}
+
 body {
   background-color:#addbf0;
   background-image:url('/images/iceland.png');
@@ -6,6 +13,12 @@ body {
   background-position:center; 	
 	background-size:70%;
 	font-size:10px;
+}
+
+header {
+
+  padding:10px;
+
 }
 
 input,button {
@@ -67,7 +80,7 @@ h1 {
   width:350px;
   opacity:.7;
   border:1px solid red;
-  padding:20px;
+  padding:0px;
   background-color:#fff;  
 
 }

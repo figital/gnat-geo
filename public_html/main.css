@@ -45,6 +45,18 @@ h1 {
 
 }
 
+#footer {
+
+  margin-top:3px;
+  color:#3E768F;
+
+}
+
+#footer A:link {color:#3E768F;text-decoration:none;}
+#footer A:visited {color:#3E768F;text-decoration:none;}
+#footer A:active {color:#3E768F;text-decoration:none;}
+#footer A:hover {color:#3E768F;text-decoration:underline;}
+
 #plate {
   margin:2px;
   margin-bottom:5px;

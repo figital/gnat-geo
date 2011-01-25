@@ -1,5 +1,5 @@
 body {
-	background-color:#addbf0;
+  background-color:#addbf0;
   background-image:url('/images/iceland.png');
   background-repeat:no-repeat;
   background-attachment:fixed;
@@ -34,7 +34,6 @@ h1 {
 #plate textarea {
   opacity:1;
   padding:3px;
-
 }
 
 #description {
@@ -80,7 +79,8 @@ h1 {
 }
 
 #tResults {
-	height:80%;
+	position:relative;
+	height:70%;
 	width:100%;
 	margin-top:4px;
 	

@@ -13,3 +13,5 @@ ToDo:
   * add a csv converter!!
   * add something like gist/dropbox/whatever as an output option
   * add some iceland travel tips :)
+
+http://gnat-geo.figital.com
